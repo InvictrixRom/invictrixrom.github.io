@@ -1,0 +1,224 @@
+@font-face {
+	font-family: 'sfns_displayregular';
+	src:
+		url('../fonts/san_francisco_display_regular.woff2') format('woff2'),
+		url('../fonts/san_francisco_display_regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'sfns_displayregular' !important;
+	font-size: 25px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+body,html {
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.team_avatar {
+	border-radius: 50%;
+	width: 128px;
+	height: auto;
+}
+
+.team_row {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.links_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#about {
+	background-color: #292929;
+	padding: 10px;
+}
+
+#title {
+	text-align: center;
+	font-size: 64px;
+	padding-top: 35px;
+}
+
+.section_title {
+	text-align: center;
+	font-size: 45px;
+	padding-top: 30px;
+}
+
+#navigation_title {
+	text-align: center;
+	font-size: 35px;
+}
+
+#header a:link {
+	text-decoration: none;
+	color: #ffffff
+}
+
+#header a:visited {
+	text-decoration: none;
+	color: #ffffff
+}
+
+.links_row a:link {
+	text-decoration: none;
+	color: #ffffff
+}
+
+.links_row a:visited {
+	text-decoration: none;
+	color: #ffffff
+}
+
+#copyright_footer {
+	text-align: center;
+	width: 100%;
+}
+
+#footer_navigation a:link {
+	text-decoration: none;
+	color: #ffffff
+}
+
+#footer_navigation a:visited {
+	text-decoration: none;
+	color: #ffffff
+}
+
+#footer {
+	width: 100%;
+	display: block;
+}
+
+#footer div {
+	background-color: #141414;
+	width: 33%;
+	float: left;
+}
+
+#footer_navigation {
+	text-align: left;
+}
+
+#footer_email {
+	text-align: center;
+}
+
+#footer_social {
+	text-align: right;
+}
+
+#footer_navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#header li {
+	float: left;
+}
+
+#header li a {
+	display: block;
+	padding: 8px;
+}
+
+#footer ul li a {
+	display: block;
+}
+
+#parallax_title {
+	background-image: url("../images/invictrix.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax_fof {
+	background-image: url("../images/invictrix.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#parallax_links {
+	background-image: url("../images/invictrix.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax_downloads {
+	background-color: #141414;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax_team {
+	background-color: #141414;
+	font-size: 20px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax_donate {
+	background-image: url("../images/invictrix.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.team_row details > summary:first-of-type {
+	list-style-type: none;
+}
+
+.team_row details summary::-webkit-details-marker {
+	display:none;
+}
+
+#paypal {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 50%;
+}
+
+#device_frame {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 83px 45px 83px 45px;
+	background: url("../images/devices/device_frame.png") no-repeat;
+	background-size: 100% 100%;
+}
