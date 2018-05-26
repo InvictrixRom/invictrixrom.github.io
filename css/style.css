@@ -60,6 +60,32 @@ body,html {
 	font-size: 35px;
 }
 
+#header {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	left:0px;
+}
+
+#header li {
+	font-size:25px;
+	width:15%;
+	padding-top:2px;
+	padding-left:auto;
+	margin-left:5px;
+	margin-right:5px;
+	line-height:50px;
+	border-radius:20px;
+	background-color:#141414;
+}
+
+#header a:hover {
+	background-color:gray;
+	border-radius:20px;
+}
+
 #header a:link {
 	text-decoration: none;
 	color: #ffffff
@@ -95,9 +121,22 @@ body,html {
 	color: #ffffff
 }
 
-#footer {
+.footer_row {
+	background-color: #141414;
+	display: flex;
+	justify-content:space-between;
+	margin-left: 8;
+	margin-right: 8;
 	width: 100%;
-	display: block;
+}
+	
+#footer {
+	background-color: #141414;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
 #footer div {
@@ -107,14 +146,12 @@ body,html {
 }
 
 #footer_navigation {
+	width: 50%;
 	text-align: left;
 }
 
-#footer_email {
-	text-align: center;
-}
-
 #footer_social {
+	width: 50%;
 	text-align: right;
 }
 
@@ -221,4 +258,23 @@ body,html {
 	padding: 83px 45px 83px 45px;
 	background: url("../images/devices/device_frame.png") no-repeat;
 	background-size: 100% 100%;
+}
+
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
 }
